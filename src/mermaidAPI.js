@@ -440,7 +440,7 @@ const render = function (id, txt, cb, container) {
   const cs = window.getComputedStyle(svg)
   s.innerHTML = `
   ${themes[config.theme] || defaultTheme}
-svg {
+.mermaid svg {
   color: ${cs.color};
   font: ${cs.font};
 }
