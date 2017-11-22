@@ -1,5 +1,5 @@
 {
-  "name": "mermaid",
+  "name": "blackst0ne-mermaid",
   "version": "7.1.0",
   "description": "Markdownish syntax for generating flowcharts, sequence diagrams, class diagrams, gantt charts and git graphs.",
   "main": "dist/mermaid.core.js",
@@ -23,11 +23,8 @@
     "jison": "node -r babel-register node_modules/.bin/gulp jison",
     "prepublishOnly": "yarn build && yarn release && yarn test"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/knsv/mermaid"
-  },
-  "author": "Knut Sveidqvist",
+  "repository": "https://github.com/blackst0ne/mermaid",
+  "author": "Vitaliy @blackst0ne Klachkov",
   "license": "MIT",
   "standard": {
     "ignore": [
@@ -76,5 +73,6 @@
   "files": [
     "dist",
     "src"
-  ]
+  ],
+  "private": false
 }
